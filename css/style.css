@@ -31,7 +31,7 @@ p {
 
 .list {
   list-style: none;
-  padding-left: 0;
+  padding: 0;
   margin: 0;
 }
 
@@ -45,7 +45,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-/* common block */
+/* common block ----------------- */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -59,16 +59,28 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+/* Title */
 .title {
   color: var(--navy-blue);
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
+/* title examples title and team title index.html */
+.examples-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
 .text {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
 }
 /* logo block (for all pages) */
 .logo {
@@ -76,12 +88,22 @@ line-height: 1.5;
 }
 /* btn (for all pages) */
 .btn {
+  cursor: pointer;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   align-items: center;
   letter-spacing: 0.04em;
+  border: 1px solid transparent;
+}
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid aqua;
 }
 
 /* HEADER BLOCK (for all pages)*/
@@ -113,64 +135,134 @@ line-height: 1.5;
   color: var(--ocean);
 }
 
-/* footer block (for all pages)*/
+/* FOOTER BLOCK (for all pages)*/
 .footer {
   color: var(--cornflower);
   background-color: var(--navy-blue);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
+
 .footer-web-logo {
   color: var(--iris);
 }
 .footer-studio-logo {
   color: var(--cloud);
 }
+.footer-text {
+  margin-top: 16px;
+  width: 264px;
+}
 
-
-/* index.html/hero section */
+/* index.html/HERO section */
 .hero {
   background-color: var(--navy-blue);
+  text-align: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-title {
   color: var(--white);
   font-weight: 700;
   font-size: 56px;
   line-height: 1;
+  letter-spacing: 0.02em;
+  width: 496px;
   text-align: center;
+  margin: 0 auto;
 }
 .hero-btn {
-  cursor: pointer;
+  min-width: 169px;
   color: var(--white);
   background-color: var(--iris);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border: none;
   border-radius: 4px;
   padding: 16px 32px;
-  /* letter-spacing: 0.04em; */
+  margin-top: 48px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: var(--ocean);
 }
 /* index.html/feature section */
-
+.feature {
+  padding-top: 120px;
+}
+.feature-caption {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
 /* index.html/examples section */
+.examples {
+  padding-top: 120px;
+}
 /* index.html/team section */
+.team-title {
+  margin-bottom: 72px;
+}
+.team-item {
+  width: 264px;
+}
+.team-wrapper {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+  background-color: var(--white);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
 .team {
   background-color: var(--cloud);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
+.team-caption {
+  margin-bottom: 8px;
+}
+/* ------------------------------------------ */
+
 /* porfolio.html/btn-filter portfolio block */
+.filter {
+  text-align: center;
+  padding-top: 96px;
+}
+
 .filter-btn {
-  cursor: pointer;
   color: var(--iris);
   background-color: var(--cornflower);
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   padding: 12px 24px;
-  /* letter-spacing: 0.04em; */
 }
 .filter-btn:hover,
 .filter-btn:focus {
   color: var(--white);
   background-color: var(--ocean);
+}
+
+/* porfolio.html/portfolio exaples block  */
+.portfolio-item {
+  width: 360px;
+}
+.portfolio-wrapper {
+background: var(--white);
+border: 1px solid #E7E9FC;
+border-top: 1px solid transparent;
+
+}
+.portfolio {
+  padding-top: 72px;
+}
+
+.portfolio-caption {
+  margin-top: 32px;
+}
+.portfolio-text {
+  margin-top: 8px;
+  padding-bottom: 32px;
 }
