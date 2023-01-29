@@ -186,7 +186,7 @@ img {
 }
 /* index.html/feature section */
 .feature {
-  margin-top: 120px;
+  padding-top: 120px;
 }
 .feature-caption {
   font-weight: 500;
@@ -197,7 +197,7 @@ img {
 }
 /* index.html/examples section */
 .examples {
-  margin-top: 120px;
+  padding-top: 120px;
 }
 /* index.html/team section */
 .team-title {
@@ -229,7 +229,7 @@ img {
 /* porfolio.html/btn-filter portfolio block */
 .filter {
   text-align: center;
-  margin-top: 96px;
+  padding-top: 96px;
 }
 
 .filter-btn {
@@ -256,8 +256,8 @@ border-top: 1px solid transparent;
 
 }
 .portfolio {
-  margin-top: 72px;
-  margin-bottom: 120px;
+  padding-top: 72px;
+  padding-bottom: 120px;
 }
 
 .portfolio-caption {
