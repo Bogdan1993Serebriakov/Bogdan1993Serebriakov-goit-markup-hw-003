@@ -106,7 +106,7 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid aqua;
+  /* outline: 2px solid aqua; */
 }
 
 /* HEADER BLOCK (for all pages)*/
@@ -114,6 +114,9 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
 } */
+.header {
+  border: 1px solid var(--cornflower);
+}
 .header-container {
   display: flex;
   align-items: center;
