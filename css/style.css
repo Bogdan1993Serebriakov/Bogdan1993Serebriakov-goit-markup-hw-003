@@ -18,7 +18,7 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.02em;
 }
-/* reset */
+/* RESET */
 h1,
 h2,
 h3,
@@ -45,7 +45,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-/* common block ----------------- */
+/* COMMON BLOCK ----------------- */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -104,7 +104,7 @@ img {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: 2px solid aqua;
+  outline: 2px solid tomato;
 }
 
 /* HEADER BLOCK (for all pages)*/
