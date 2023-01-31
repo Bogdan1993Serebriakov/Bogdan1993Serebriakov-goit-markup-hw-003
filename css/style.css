@@ -288,7 +288,7 @@ img {
 /* porfolio.html/btn-filter portfolio block */
 .filter {
   text-align: center;
-  margin-top: 96px;
+  padding-top: 96px;
 }
 .filter-container{
   display: flex;
@@ -313,8 +313,8 @@ img {
 
 /* porfolio.html/portfolio exaples block  */
 .portfolio {
-  margin-top: 72px;
-  margin-bottom: 120px;
+  padding-top: 72px;
+  padding-bottom: 120px;
 }
 .potfolio-list {
   display: flex;
